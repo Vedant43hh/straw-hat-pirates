@@ -1,0 +1,57 @@
+.page-body {
+  position: relative;
+  z-index: 1;
+  padding: 120px 6%;
+  background: linear-gradient(180deg, rgba(4, 6, 12, 0.94), #05060d 28%);
+}
+
+.page-section {
+  max-width: 900px;
+  margin: 0 auto 4rem;
+  color: rgba(247, 242, 235, 0.96);
+}
+
+.page-eyebrow {
+  margin: 0 0 1rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.58);
+}
+
+.page-section h2,
+.page-section h3 {
+  margin: 0 0 1rem;
+  font-family: 'Cinzel', Georgia, serif;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.page-section h2 {
+  font-size: clamp(2.6rem, 4vw, 3.6rem);
+}
+
+.page-section h3 {
+  font-size: clamp(2rem, 3.4vw, 2.8rem);
+}
+
+.page-section p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: rgba(247, 242, 235, 0.84);
+}
+
+.page-section--accent {
+  padding: 2.8rem 2.4rem;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 0 32px 80px rgba(1, 4, 9, 0.28);
+}
+
+@media (max-width: 720px) {
+  .page-body {
+    padding: 84px 5%;
+  }
+}
